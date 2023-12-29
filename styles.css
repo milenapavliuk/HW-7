@@ -1,0 +1,10 @@
+a[href^="https"] {
+     color: red;
+}
+ul+p {
+    font-size: 24px;
+}
+/* refer only to those links whose href attribute value begins with
+https and make them red color; */
+/* make <p> font size equal to 24 pixels (only for <p>
+immediately following <ul>) */
